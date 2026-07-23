@@ -1,19 +1,46 @@
+# Dependencies
 node_modules/
+
+# Expo / React Native
 .expo/
+.expo-shared/
+.expo-cache/
+metro-cache/
+.webpack/
 dist/
 web-build/
 android/
 ios/
-*.log
-.DS_Store
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
 *.orig.*
-.env
+*.ipa
+*.apk
+*.aab
+
+# Build and generated files
+build/
+coverage/
+.cache/
 .metro-health-check*
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
